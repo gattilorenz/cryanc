@@ -214,7 +214,7 @@ typedef unsigned long long u_int64_t;
 
 /* SCO Unix */
 #if defined (M_XENIX)
-#warning compiling for SCO Unix
+#warning compiling for SCO Unix - must compile with -lsocket
 #define NOT_POSIX 1
 #include <sys/types.h>
 #include <stdarg.h>
