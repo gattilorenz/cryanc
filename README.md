@@ -1,7 +1,8 @@
-# Crypto Ancienne: TLS for the Internet of Old Things
-
 ## Source modifications for gcc 2.6.3 (and possibly 2.5.8) on SCO Unix 4.2 (SCO ODT)
 I changed all C++ style comments to C style comments (in addition to adding usleep and the M_XENIX defs), since GCC < 2.7 doesn't seem to support them.
+
+
+# Crypto Ancienne: TLS for the Internet of Old Things
 
 Copyright (C) 2020-3 Cameron Kaiser and Contributors. All rights reserved.
 
