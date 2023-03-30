@@ -1,6 +1,9 @@
 # Crypto Ancienne: TLS for the Internet of Old Things
 
-Copyright (C) 2020-2 Cameron Kaiser and Contributors. All rights reserved.
+## Source modifications for gcc 2.6.3 (and possibly 2.5.8) on SCO Unix 4.2 (SCO ODT)
+I changed all C++ style comments to C style comments (in addition to adding usleep and the M_XENIX defs), since GCC < 2.7 doesn't seem to support them.
+
+Copyright (C) 2020-3 Cameron Kaiser and Contributors. All rights reserved.
 
 Crypto Ancienne, or Cryanc for short, is a TLS library with an aim for compatibility with pre-C99 C compilers and geriatric architectures. The [TLS apocalypse](http://tenfourfox.blogspot.com/2018/02/the-tls-apocalypse-reaches-power-macs.html) may have knocked these hulking beasts out of the running for awhile, but now it's time for the Great Old Computing Ones to reclaim the Earth. That old server in your closet? It's only been sleeping, and now it's ready to take back the Web on the Web's own terms. 1997 just called and it's *ticked*.
 
